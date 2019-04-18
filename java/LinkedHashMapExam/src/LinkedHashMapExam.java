@@ -10,6 +10,7 @@ public class LinkedHashMapExam {
         Map<Integer, String> accessOrderLmh = 
                 new LinkedHashMap<>(MAP_DEFAULT_ENTRY_SIZE, .75f, true);
         
+        @SuppressWarnings("unused")
         String accessCheck;
 
         insertOrderLmh.put(1, "a");
